@@ -4,8 +4,13 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
-    width: 100vw;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 /*HEADER*/
 header{
@@ -35,12 +40,17 @@ header{
     align-items: center;
     justify-content: flex-end;
     gap: 20px;
+    margin-right: 5%;
 }
 ul{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 20px
+    gap: 20px;
+    margin-right: 50px;
+}
+ul li{
+    margin: 0 25px;
 }
 a{
     text-decoration: none;
@@ -51,29 +61,34 @@ nav{
     font-size: 130%;
     font-weight: bold;
 }
-button{
+.contacto{
     color: white;
     background: linear-gradient(to right, #812bd4,#c253ed);
-    padding: 12px 20px;
-    border-radius: 10px;
+    padding: 20px 50px;
+    border-radius: 15px;
     border: none;
     font-weight: bold;
     font-size: 200%;
     cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+.contacto:hover{
+    color: black;
+    transform: scale(1.1);
 }
 /*MAIN*/
 /*SECTION HERO*/
 .hero{
     background-color: #fbeeff;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
 }
 .hero-texto{
     width: 50%;
+    margin-left: 5%;
 }
 .hero-h1{
     font-weight: bold;
@@ -117,7 +132,7 @@ button{
 /*SECTION SERVICIOS*/
 .servicios{
     background-color: white;
-    height: 100vh;
+    height: 90vh;
 }
 .servicios-h2{
     text-transform: uppercase;
@@ -126,12 +141,13 @@ button{
     display: flex;
     align-items: center;
     margin-left: 100px;
+    margin-top: 80px;
 }
 .cards{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 10px 0;
+    height: 60vh;
 }
 .card{
     display: flex;
@@ -153,10 +169,8 @@ button{
     padding: 30px 100px;
 }
 .servicios-h3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-bottom: 30px;
+    text-align: center;
 }
 .h3{
     display: flex;
