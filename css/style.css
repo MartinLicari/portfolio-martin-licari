@@ -208,3 +208,30 @@ button{
     padding: 30px;
     color: white;
 }
+/*FOOTER*/
+footer{
+    background-color: #240048;
+    color: white;
+    padding: 50px 0 0 80px;
+}
+.div-footer{
+
+}
+.footer-text{
+    font-size: 250%;
+    padding: 60px 0 50px 60px;
+}
+.footer-h2{
+
+}
+.footer-p{
+    width: 65%;
+    padding-top: 60px;
+}
+.footer-logo-rrss{
+
+}
+.logo-rrss{
+    width: 90px;
+    padding: 50px 0 60px 60px;
+}
