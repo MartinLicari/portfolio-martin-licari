@@ -93,3 +93,24 @@ button{
     width: 500px;
     border-radius: 50%;
 }
+/*SECTION ACERCA DE*/
+.acerca-de{
+    background-color: white;
+    height: 80vh;
+    display: flex;
+}
+.acerca-de-texto{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0 0 100px;
+}
+.acerca-de-h2{
+    text-transform: uppercase;
+    font-size: 250%;
+    padding: 10px 0 50px 0;
+}
+.acerca-de-p{
+    font-size: 200%;
+    margin: 0 200px 0 0;
+    padding-top: 50px;
+}
