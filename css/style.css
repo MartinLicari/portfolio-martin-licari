@@ -163,3 +163,48 @@ button{
     align-items: center;
     justify-content: center;
 }
+/*SECTION TRABAJOS*/
+.trabajos{
+    background: linear-gradient(to right, #a833fb,#d151fe);
+    height: 100vh;
+}
+.trabajos-h2{
+    text-transform: uppercase;
+    font-size: 250%;
+    padding: 10px 0 50px 0;
+}
+.div-trabajos-h2{
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    margin-left: 100px;
+    color: white;
+}
+.cards-trabajos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card-trabajos{
+    border: 5px solid #e3a9fe;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 250%;
+    background-color: #d17afd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px 0 50px;
+}
+.imagen-trabajos{
+    height: 400px;
+    border-radius: 5%;
+}
+.trabajos-h3{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 30px;
+    color: white;
+}
