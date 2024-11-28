@@ -114,3 +114,52 @@ button{
     margin: 0 200px 0 0;
     padding-top: 50px;
 }
+/*SECTION SERVICIOS*/
+.servicios{
+    background-color: white;
+    height: 100vh;
+}
+.servicios-h2{
+    text-transform: uppercase;
+    font-size: 250%;
+    padding: 10px 0 50px 0;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #ac36fc;
+    border-radius: 15%;
+    font-weight: bold;
+    font-size: 250%;
+    background-color: white;
+}
+.imagen-servicios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border-radius: 15px;
+    padding: 30px 100px;
+}
+.servicios-h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
